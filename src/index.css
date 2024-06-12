@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TO-Do-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+h1 {
+    font-style: italic;
+    color: tomato;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid rgba(5, 87, 66, 0.952);
+    border-radius: 12px;
+}
+
+.add {
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+b {
+    font-size: 20px;
+}
+
+.list-container {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+}
+
+.Un-order {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+li {
+    padding: 5px 10px;
+    border-radius: 5px;
+   
+}
+.edit,
+.delete {
+    padding: 5px 10px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
