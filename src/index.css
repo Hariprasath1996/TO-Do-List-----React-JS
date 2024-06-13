@@ -32,7 +32,14 @@ h1 {
     font-style: italic;
     color: tomato;
 }
+label{
+    font-size:30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: cornflowerblue;
 
+}
 .input-container {
     width: 100%;
     display: flex;
@@ -41,10 +48,10 @@ h1 {
 }
 
 .input {
-    width: 70%;
+    width: 60%;
     padding: 10px;
     border-radius: 12px;
-    border: 2px solid lightskyblue;
+    border: 2px solid cornflowerblue;
 }
 
 .btn-add {
